@@ -1,0 +1,119 @@
+/* CSS Reset */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background:url(./img/istockphoto-610554346-612x612.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* Left Box For Logo  */
+
+.left {
+    position: absolute;
+    left: 45px;
+    top: 1px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    margin-left: 13px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+/* Mid Box For Navigation */
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 43%;
+    margin: 6px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 18px
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    /* color: gray; */
+    color: yellow;
+}
+
+/* Right Box For Buttons */
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 19px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 14px;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 93px 52px;
+    padding: 36px 50px ;
+    width: 24%; 
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    margin:  auto;
+    cursor: pointer;
+}
